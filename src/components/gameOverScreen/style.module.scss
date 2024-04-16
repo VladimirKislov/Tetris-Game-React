@@ -1,0 +1,62 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  backdrop-filter: blur(10px);
+}
+
+.game_over {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-bottom: 30px;
+
+    font-size: 40px;
+
+    color: #ffe9b6;
+  }
+
+  &__btn {
+    &__start {
+      width: 250px;
+      height: 40px;
+
+      margin-bottom: 10px;
+
+      border-radius: 15px;
+
+      font-family: "Pixel";
+      font-size: 16px;
+    }
+
+    &__exit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 250px;
+      height: 40px;
+
+      border: 1px solid #ffb300;
+      border-radius: 15px;
+
+      font-family: "Pixel";
+      font-size: 15px;
+
+      background: #0b153e;
+      color: #ffb300;
+    }
+  }
+}

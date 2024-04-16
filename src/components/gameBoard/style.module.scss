@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  grid-template-rows: 23px;
+  grid-template-columns: repeat(10, 23px);
+  position: relative;
+  background: #817d7d;
+}

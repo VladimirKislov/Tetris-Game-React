@@ -1,8 +1,31 @@
+@font-face {
+  font-family: 'Outerorbit';
+  src: local('Outerorbit'), url('./assets/Outerorbit.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: local('Pixel'), url('./assets/Pixel.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Square';
+  src: local('Square'), url('./assets/Square.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  height: 100%;
+
+  text-decoration: none;
+  list-style: none;
+
+  color: #fff;
+
+  overflow: hidden;
+
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +33,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 5px;
+
+  border: 1px solid #ffb300;
+  border-radius: 5px;
+
+  background: #0b153e;
+  color: #ffb300;
+
+  cursor: pointer;
+  box-shadow: 'none';
+  outline: 'none';
 }
