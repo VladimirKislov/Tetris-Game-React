@@ -20,7 +20,7 @@ export default function Cell({ x, color }) {
     } else if (x[0] === 7) {
       setColor(color[6]);
     }
-  }, [x]);
+  }, [x, color]);
 
   return (
     <span
