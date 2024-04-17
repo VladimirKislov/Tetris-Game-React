@@ -3,8 +3,12 @@
   align-items: center;
   justify-content: center;
 
+  height: 100vh;
+
   padding: 10px;
 
   font-family: 'Outerorbit';
   background: linear-gradient(140deg, #0e0343, #95a5ff);
+
+  overflow: hidden;
 }
